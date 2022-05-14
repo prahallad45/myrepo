@@ -1,0 +1,7 @@
+lst=input("ENTER A LINE OF TEXT:")
+vowel=list(filter(lambda ch: ch in ['a','e','i','o','u','A','E','I','O','U'],lst))
+conso=list(filter(lambda ch: ch not in ['a','e','i','o','u','A','E','I','O','U'],lst))
+print("VOWEL=",vowel)
+print(len(vowel))
+print("CONSONANTS=",conso)
+print(len(conso))
